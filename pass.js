@@ -22,7 +22,7 @@ let passwordVerified = false
 async function verifyPassword() {
   if (passwordVerified) return
   let systemKey = false
-  let inputPassword = ''
+  let inputPassword = 'apitz'
   console.log(chalk.yellow.bold('Masukkan Password!'))
   while (!systemKey) {
     inputPassword = await getInput(chalk.yellow.bold('Password: '))
