@@ -1,7 +1,7 @@
 const axios = require('axios')
 const chalk = require('chalk')
 
-const keyURLBase64 = 'isi link github lu'
+const keyURLBase64 = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FwaXR6RGV2L2FwaXR6L21haW4vUkVBRE1FLm1k'
 const decodedURL = Buffer.from(keyURLBase64, 'base64').toString('utf-8')
 
 async function getInput(prompt) {
